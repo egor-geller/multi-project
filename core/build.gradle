@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation group: 'org.geller', name: 'util', version: '1.3.5'
+}
